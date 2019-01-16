@@ -4,56 +4,32 @@ body{
     filter: drop-shadow(1px 4px rgba(0,0,0,.4))
 }
 #main{
-    /* background: url("./img/bg.jpg"); */
-    /* background-size: contain; */
+    background: url("./img/bg.jpg");
+    background-size: cover;
     background-attachment: fixed;
-    height: 100%;
-    
-
+    padding-bottom: 30%;
 }
 #benefits{
-    /* background: url("./img/bg2.jpg"); */
-    /* background-size: contain; */
-    /* background-attachment: fixed; */
-     
-   
-}
-@media (max-width: 990px){
-    #benefits{
-        height: 170vh;
-    }
-    #plans{
-        height: 170vh;
-    }
-}
-#plans{
-    /* background-image: url("./img/bg4.jpg"); */
-    /* background-size: auto; */
-    /* background-attachment: fixed; */
     
-   
+    padding: 15% 0 !important;
+    background: url("./img/bg2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#plans{
+    padding: 15% 0 !important;
+    background: url("./img/bg4.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
 }
 #contact{
-    background-image: url("./img/bg3.jpg");
-    background-size: auto;
+    padding: 15% 0 !important;
+    background: url("./img/bg3.jpg");
+    background-size: cover;
     background-attachment: fixed;
-    
-    
-
 }
-div{
-    
-    
-    
-  }
-  
-  section {
-    display: table;
-    width: 100%;
-    
-    
-    
-  }
+
 .logo{
     transition: all .4s;
     width: 30%;

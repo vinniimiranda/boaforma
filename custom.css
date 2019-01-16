@@ -20,7 +20,7 @@ body{
 #plans{
     padding: 15% 0 !important;
     background: url("./img/bg4.jpg");
-    background-size: 100%;
+    background-size: cover%;
     background-attachment: fixed;
 }
 #contact{

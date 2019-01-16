@@ -1,0 +1,76 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+    background-color: #FFF;
+    filter: drop-shadow(1px 4px rgba(0,0,0,.4))
+}
+#main{
+    background-image: url("./img/bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    
+
+}
+#benefits{
+    background-image: url("./img/bg2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh; 
+   
+}
+@media (max-width: 990px){
+    #benefits{
+        height: 125vh;
+    }
+    #plans{
+        height: 125vh;
+    }
+}
+#plans{
+    background-image: url("./img/bg4.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+   
+}
+#mission{
+    background-image: url("./img/bg3.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    
+
+}
+.logo{
+    transition: all .4s;
+    width: 30%;
+}
+.nav-item{
+    margin: 0 15px;
+    border-radius: 15px;
+    transition: all .2s;
+}
+
+.mainTitle{
+    font-size: 3.5rem;
+    font-weight: bold;
+
+}
+.bold{
+    font-weight: bold;
+}
+.nav-item:hover{
+    
+    background-color: rgba(65, 63, 63, 0.4);
+    padding:0 10px;
+    /* transform: scale(1.03) */
+    
+}
+.icon{
+    font-size: 4rem;
+    text-align: center;
+}
+.logo:hover{
+    
+    transform: scale(1.1);
+}

@@ -1,21 +1,21 @@
 body{
     font-family: 'Quicksand', sans-serif;
-    background-color: #FFF;
+    background-color: rgb(59, 59, 59);
     filter: drop-shadow(1px 4px rgba(0,0,0,.4))
 }
 #main{
-    background-image: url("./img/bg.jpg");
-    background-size: cover;
+    /* background: url("./img/bg.jpg"); */
+    /* background-size: contain; */
     background-attachment: fixed;
-    height: 100vh;
+    height: 100%;
     
 
 }
 #benefits{
-    background-image: url("./img/bg2.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    height: 100vh; 
+    background: url("./img/bg2.jpg");
+    /* background-size: contain; */
+    /* background-attachment: fixed; */
+     
    
 }
 @media (max-width: 990px){
@@ -27,17 +27,17 @@ body{
     }
 }
 #plans{
-    background-image: url("./img/bg4.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    height: 100vh;
+    /* background-image: url("./img/bg4.jpg"); */
+    /* background-size: auto; */
+    /* background-attachment: fixed; */
+    
    
 }
 #contact{
     background-image: url("./img/bg3.jpg");
-    background-size: cover;
+    background-size: auto;
     background-attachment: fixed;
-    height: 100vh;
+    
     
 
 }

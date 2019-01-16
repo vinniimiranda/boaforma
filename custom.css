@@ -20,10 +20,10 @@ body{
 }
 @media (max-width: 990px){
     #benefits{
-        height: 125vh;
+        height: 170vh;
     }
     #plans{
-        height: 125vh;
+        height: 170vh;
     }
 }
 #plans{
@@ -41,6 +41,19 @@ body{
     
 
 }
+div{
+    
+    
+    
+  }
+  
+  section {
+    display: table;
+    width: 100%;
+    
+    
+    
+  }
 .logo{
     transition: all .4s;
     width: 30%;

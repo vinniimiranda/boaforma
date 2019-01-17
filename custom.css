@@ -7,27 +7,33 @@ body{
     background: url("./img/bg.jpg");
     background-size: cover;
     background-attachment: fixed;
-    padding-bottom: 30%;
+    height: 100vh;
 }
 #benefits{
     
-    padding: 15% 0 !important;
+    padding-top: 15%;
+    padding-bottom: 15%;
     background: url("./img/bg2.jpg");
     background-size: cover;
     background-attachment: fixed;
+    height: 100vh;
 }
 
 #plans{
-    padding: 15% 0 !important;
+    padding-top: 15%;
+    padding-bottom: 15%;
     background: url("./img/bg4.jpg");
     background-size: cover;
     background-attachment: fixed;
+    height: 100vh;
 }
 #contact{
-    padding: 15% 0 !important;
+    padding-top: 15%;
+    padding-bottom: 15%;
     background: url("./img/bg3.jpg");
     background-size: cover;
     background-attachment: fixed;
+    height: 100vh;
 }
 
 .logo{
@@ -54,6 +60,9 @@ body{
     padding:0 10px;
     
     
+}
+section{
+    transition: all .4s;
 }
 .icon{
     font-size: 4rem;

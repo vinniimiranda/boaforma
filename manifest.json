@@ -2,24 +2,24 @@
     "name": "Boa Forma",
     "short_name": "Boa Forma",
     "icons": [{
-      "src": "img/logo.png",
+      "src": "img/fav.png",
         "sizes": "128x128",
         "type": "image/png"
       }, {
-        "src": "img/logo.png",
+        "src": "img/fav.png",
         "sizes": "144x144",
         "type": "image/png"
       }, {
-        "src": "iimg/logo.png",
+        "src": "iimg/fav.png",
         "sizes": "152x152",
         "type": "image/png"
       }, {
-        "src": "img/logo.png",
+        "src": "img/fav.png",
         "sizes": "192x192",
         "type": "image/png"
       },
       {
-        "src": "img/logo.png",
+        "src": "img/fav.png",
         "sizes": "512x512",
         "type": "image/png"
       }
@@ -27,6 +27,6 @@
     "start_url": "/index.html",
     "gcm_sender_id": "103953800507",
     "display": "standalone",
-    "background_color": "#2dc7d0",
-    "theme_color": "#2dc7d0"
+    "background_color": "#07060b",
+    "theme_color": "#07060b"
   }

@@ -17,7 +17,6 @@ html,body{
     background-size: cover;
     background-attachment: fixed;
 }
-
 #plans{
     padding-top: 15%;
     padding-bottom: 15%;
@@ -32,9 +31,7 @@ html,body{
     background: url("./img/bg3.jpg");
     background-size: cover;
     background-attachment: fixed;
-    
 }
-
 .logo{
     transition: all .4s;
     width: 30%;
@@ -44,7 +41,6 @@ html,body{
     border-radius: 15px;
     transition: all .2s;
 }
-
 .mainTitle{
     font-size: 3.5rem;
     font-weight: bold;
@@ -56,9 +52,7 @@ html,body{
 .nav-item:hover{
     
     background-color: rgba(65, 63, 63, 0.4);
-    padding:0 10px;
-    
-    
+    padding:0 10px;   
 }
 section{
     transition: all .4s;
@@ -68,11 +62,10 @@ section{
     text-align: center;
 }
 .logo:hover{
-    
     transform: scale(1.1);
 }
 
-@media (min-width: 769px) {
+@media (min-width: 992px) {
     #benefits, #plans, #contact {
         height: 100vh;
     }

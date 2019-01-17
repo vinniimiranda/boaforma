@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,9 +13,10 @@
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
         crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="./animate/custom.css" />
-                
+    <link rel="stylesheet" type="text/css" href="./animate/custom.css" />
+
 </head>
+
 <body>
     <section id="main" class="">
         <div class="container">
@@ -31,13 +33,16 @@
                             <a href="#" class="nav-link">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" onclick="$('#benefits').animatescroll({scrollSpeed:2000,easing:'easeInOutQuint'});" class="nav-link">Benefícios</a>
+                            <a href="#" onclick="$('#benefits').animatescroll({scrollSpeed:2000,easing:'easeInOutQuint'});"
+                                class="nav-link">Benefícios</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" onclick="$('#plans').animatescroll({scrollSpeed:2000,easing:'easeInOutQuint'});" class="nav-link">Planos</a>
+                            <a href="#" onclick="$('#plans').animatescroll({scrollSpeed:2000,easing:'easeInOutQuint'});"
+                                class="nav-link">Planos</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" onclick="$('#contact').animatescroll({scrollSpeed:2000,easing:'easeInOutQuint'});" class="nav-link">Contato</a>
+                            <a href="#" onclick="$('#contact').animatescroll({scrollSpeed:2000,easing:'easeInOutQuint'});"
+                                class="nav-link">Contato</a>
                         </li>
                     </ul>
                 </div>
@@ -148,7 +153,7 @@
                                 <label for="email">E-mail</label>
                                 <input type="email" class="form-control" id="email" placeholder="Seu e-mail" required>
                             </div>
-                            
+
                             <button type="submit" class="btn btn-dark">Enviar</button>
                         </form>
                     </div>
@@ -164,7 +169,20 @@
     crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
-    <script src="./animate/jquery-1.8.3.min.js"></script>
-    <script src="./animate/animatescroll.js"></script>
-    
+<script src="./animate/jquery-1.8.3.min.js"></script>
+<script src="./animate/animatescroll.js"></script>
+
+<script>
+    let vh = window.innerHeight * 0.01;
+    // Then we set the value in the --vh custom property to the root of the document
+    document.documentElement.style.setProperty('--vh', `${vh}px`);
+
+    // We listen to the resize event
+    window.addEventListener('resize', () => {
+        // We execute the same script as before
+        let vh = window.innerHeight * 0.01;
+        document.documentElement.style.setProperty('--vh', `${vh}px`);
+    });
+</script>
+
 </html>

@@ -1,74 +1,99 @@
-body{
+body {
     font-family: 'Quicksand', sans-serif;
     background-color: rgb(59, 59, 59);
-    filter: drop-shadow(1px 4px rgba(0,0,0,.4))
+    filter: drop-shadow(1px 4px rgba(0, 0, 0, .4))
 }
-#main{
+
+#main {
     background: url("./img/bg.jpg");
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
+    /* Use vh as a fallback for browsers that do not support Custom Properties */
+    height: calc(var(--vh, 1vh) * 100);
+    margin: 0 auto;
+   
 }
-#benefits{
-    
+
+#benefits {
+
     padding-top: 15%;
     padding-bottom: 15%;
     background: url("./img/bg2.jpg");
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
+    /* Use vh as a fallback for browsers that do not support Custom Properties */
+    height: calc(var(--vh, 1vh) * 100);
+    margin: 0 auto;
+    
 }
 
-#plans{
+#plans {
     padding-top: 15%;
     padding-bottom: 15%;
     background: url("./img/bg4.jpg");
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
+    /* Use vh as a fallback for browsers that do not support Custom Properties */
+    height: calc(var(--vh, 1vh) * 100);
+    margin: 0 auto;
+    
 }
-#contact{
+
+#contact {
     padding-top: 15%;
     padding-bottom: 15%;
     background: url("./img/bg3.jpg");
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
+    /* Use vh as a fallback for browsers that do not support Custom Properties */
+    height: calc(var(--vh, 1vh) * 100);
+    margin: 0 auto;
+    
 }
 
-.logo{
+.logo {
     transition: all .4s;
     width: 30%;
 }
-.nav-item{
+
+.nav-item {
     margin: 0 15px;
     border-radius: 15px;
     transition: all .2s;
 }
 
-.mainTitle{
+.mainTitle {
     font-size: 3.5rem;
     font-weight: bold;
 
 }
-.bold{
+
+.bold {
     font-weight: bold;
 }
-.nav-item:hover{
-    
+
+.nav-item:hover {
+
     background-color: rgba(65, 63, 63, 0.4);
-    padding:0 10px;
-    
-    
+    padding: 0 10px;
+
+
 }
-section{
+
+section {
     transition: all .4s;
 }
-.icon{
+
+.icon {
     font-size: 4rem;
     text-align: center;
 }
-.logo:hover{
-    
+
+.logo:hover {
+
     transform: scale(1.1);
 }

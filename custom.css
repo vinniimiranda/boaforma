@@ -72,7 +72,7 @@ section{
     transform: scale(1.1);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
     #benefits, #plans, #contact {
         height: 100vh;
     }
